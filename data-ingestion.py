@@ -14,7 +14,7 @@ API_KEY = os.getenv("API_KEY")
 database = Database(DATABASE_URL)
 
 async def fetch_and_store_data():
-    response = requests.get('uu0urfqge7gu0icqi3j2rk61ouj2db2gntac7nf7a9p70mnbhca3o')
+    response = requests.get('ADD YOUR API KEY HERE')
     data = response.json()
 
     await database.connect()
