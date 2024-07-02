@@ -5,10 +5,10 @@ services:
     image: mysql:8.0.37
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: rootpassword
-      MYSQL_USER: user
-      MYSQL_PASSWORD: password
-      MYSQL_DATABASE: dbname
+      MYSQL_ROOT_PASSWORD: Sairam0704*
+      MYSQL_USER: root
+      MYSQL_PASSWORD: Sairam0704*
+      MYSQL_DATABASE: streamlytics
     volumes:
       - db_data:/var/lib/mysql
 
@@ -19,7 +19,7 @@ services:
     depends_on:
       - db
     environment:
-      DATABASE_URL: mysql://user:password@db/dbname
+      DATABASE_URL: "mysql://root:Sairam0704*@localhost/streamlytics"
 
 volumes:
   db_data:

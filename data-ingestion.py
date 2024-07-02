@@ -2,7 +2,7 @@ import requests
 import asyncio
 from databases import Database
 
-DATABASE_URL = "mysql://user:password@localhost/dbname"
+DATABASE_URL = "mysql://root:Sairam0704*@localhost/streamlytics"
 
 database = Database(DATABASE_URL)
 
