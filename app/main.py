@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from databases import Database
 import sqlalchemy
 
-DATABASE_URL = "mysql://user:password@localhost/dbname"
+DATABASE_URL = "mysql://root:Sairam0704*@localhost/streamlytics"
 
 database = Database(DATABASE_URL)
 metadata = sqlalchemy.MetaData()
