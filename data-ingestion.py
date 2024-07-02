@@ -7,7 +7,7 @@ DATABASE_URL = "mysql://root:Sairam0704*@localhost/streamlytics"
 database = Database(DATABASE_URL)
 
 async def fetch_and_store_data():
-    response = requests.get('https://api.example.com/data')
+    response = requests.get('uu0urfqge7gu0icqi3j2rk61ouj2db2gntac7nf7a9p70mnbhca3o')
     data = response.json()
 
     await database.connect()
