@@ -1,8 +1,15 @@
 import requests
 import asyncio
 from databases import Database
+from dotenv import load_dotenv
+import os
 
-DATABASE_URL = "mysql://root:Sairam0704*@localhost/streamlytics"
+load_dotenv()
+
+DATABASE_URL = os.getenv("DATABASE_URL")
+API_KEY = os.getenv("API_KEY")
+
+
 
 database = Database(DATABASE_URL)
 
